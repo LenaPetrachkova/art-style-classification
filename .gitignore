@@ -1,0 +1,53 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Jupyter Notebooks Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Datasets & Heavy Generated Features
+# ==========================================
+data/
+datasets/
+*.csv
+*.parquet
+*.npz
+*.npy
+wikiart_features_*
+
+# ==========================================
+# Model Weights & Checkpoints (PyTorch / Transformers)
+# ==========================================
+*.pth
+*.pt
+*.bin
+*.onnx
+*.h5
+*.ckpt
+resnet18_wikiart.pth
+clip_wikiart.pth
+
+# ==========================================
+# Reports & Documentation
+# ==========================================
+Звіт.md
+Звіт.pdf
+report_assets/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
